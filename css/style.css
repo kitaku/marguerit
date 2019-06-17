@@ -1,0 +1,176 @@
+.swiper-container {
+
+	max-width: 1200px;
+	/* max-height: 675px; */
+	margin:0 auto;
+	padding-top: 75px
+}
+.swiper-container img{
+	width: 100%;
+}
+/* .swiper-slide {
+	padding-top: 180px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+} */
+p{
+	font-size: 18px;
+	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+.ui.inverted.secondary.borderless.fixed.pointing.menu{
+	background-color: darkcyan;
+}
+.modProductNav ul{
+	list-style: none;
+}
+.modProductNav a{
+	font-size: 28px;
+	/* text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden; */
+	visibility: hidden;
+	/* position: fixed; */
+	border-bottom: 10px solid #58b368;
+}
+.ui.large.image{
+	margin: 80px 0px;
+}
+.eight.wide.right.floated.column p{
+	text-align: left;
+}
+.eight.wide.right.floated.column h3{
+	background-color: #ffebd3;
+}
+.ui.vertical.stripe.segment h1{
+	margin-bottom: 20px;
+	display: inline-block;
+	border-bottom: 5px solid #58b368
+}
+/* .card-list{
+	padding: 0px 100px;
+} */
+.cercle-item{
+	margin:30px;
+}
+.sns-comment{
+	margin-top: 50px;
+}
+.twitter.icon{
+	color:#55acee;
+}
+.instagram.icon{
+	color: #E1306C;
+}
+.youtube.icon{
+	color: #cd201f;
+}
+.facebook.icon{
+	color: #3b5998;
+}
+.ui.inverted.vertical.footer.segment{
+	background-color: #454d66;
+	padding: 70px 0px;
+}
+@media screen and (min-width : 375px) and (max-width:414px) {
+	.card-list{
+		padding: 0px 50px;
+	}
+	/* .ui.link.cards.card{
+		width: 100px;
+	} */
+	.options iframe{
+		width: 100%;
+	}
+	.google-map iframe{
+		width: 100%;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
+
+}
+@media screen and (min-width:414px) and (max-width:480px) {
+	.card-list{
+		padding: 0px 50px;
+	}
+	.options iframe{
+		width: 100%;
+	}
+	.google-map iframe{
+		width: 100%;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
+}
+@media screen and (min-width:480px) and (max-width:621px){
+	.card-list{
+		padding: 0px 82px;
+	}
+	.options iframe{
+		width: 100%;
+	}
+	.google-map iframe{
+		width: 100%;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
+}
+@media screen and (min-width : 621px) and (max-width:768px) {
+	.card-list{
+		padding: 0px 30px;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
+}
+@media screen and (min-width : 768px) and (max-width : 992px) {
+	.card-list{
+		padding: 0px 64px;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
+}
+
+@media screen and (min-width : 992px) and (max-width:1024px){
+	.card-list{
+		padding: 0px 64px;
+	}
+	#side{
+		display: none;
+	}
+}
+@media screen and (min-width:1024px) and (max-width:1200px){
+	.card-list{
+		padding: 0px 10px;
+	}
+	#side{
+		display: none;
+	}
+}
+@media screen and (min-width:1200px) {
+	.card-list{
+		padding: 0px 100px;
+	}
+	#side{
+		display: none;
+	}
+}
