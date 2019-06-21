@@ -1,9 +1,7 @@
 .swiper-container {
-
 	max-width: 1200px;
-	/* max-height: 675px; */
 	margin:0 auto;
-	padding-top: 75px
+	padding-top: 70px
 }
 .swiper-container img{
 	width: 100%;
@@ -18,19 +16,30 @@ p{
 	font-size: 18px;
 	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
+ul{
+	list-style-type: none;
+}
+li{
+	padding: 10px;
+}
+dt{
+	float:left;
+	width: 35% ;
+}
+dd{
+	float: right;
+	margin-right: 1em;
+	width: 65%
+}
 .ui.inverted.secondary.borderless.fixed.pointing.menu{
-	background-color: darkcyan;
+	background-color: moccasin;
 }
 .modProductNav ul{
 	list-style: none;
 }
 .modProductNav a{
 	font-size: 28px;
-	/* text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden; */
 	visibility: hidden;
-	/* position: fixed; */
 	border-bottom: 10px solid #58b368;
 }
 .ui.large.image{

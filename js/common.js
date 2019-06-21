@@ -13,6 +13,11 @@ var swiper = new Swiper('.swiper-container', {
       el: '.swiper-pagination',
       type: 'bullets',
     },
+  effect:"fade",
+  fade:{
+    crossFade: true
+  }
+
 });
 
 $(function(){
