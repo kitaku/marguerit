@@ -1,22 +1,23 @@
-.swiper-container {
-	max-width: 1200px;
+
+.slider{
 	margin:0 auto;
 	padding-top: 70px
 }
-.swiper-container img{
+.slider img{
+	height: auto;
 	width: 100%;
 }
-/* .swiper-slide {
-	padding-top: 180px;
-	text-align: center;
-	color: #fff;
-	font-size: 30px;
-} */
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
 p{
-	font-size: 18px;
+	font-size: 14px;
 	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
 ul{
+	display: block;
+	float: left;
 	list-style-type: none;
 }
 li{
@@ -24,15 +25,15 @@ li{
 }
 dt{
 	float:left;
-	width: 35% ;
+	/* width: 35% ; */
 }
 dd{
-	float: right;
+	float: left;
 	margin-right: 1em;
-	width: 65%
+	/* width: 65% */
 }
 .ui.inverted.secondary.borderless.fixed.pointing.menu{
-	background-color: moccasin;
+	background-color: #FDF3D6;
 }
 .modProductNav ul{
 	list-style: none;
@@ -78,7 +79,7 @@ dd{
 	color: #3b5998;
 }
 .ui.inverted.vertical.footer.segment{
-	background-color: #454d66;
+	background-color: #A08A7A;
 	padding: 70px 0px;
 }
 @media screen and (min-width : 375px) and (max-width:414px) {

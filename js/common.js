@@ -20,6 +20,17 @@ var swiper = new Swiper('.swiper-container', {
 
 });
 
+$('.slider').slick({
+  accessibility: true,
+  autoplay:false,
+  autoplaySpeed:5000,
+  dots:true,
+  pauseOnHover: true,
+  cssEase: 'ease',
+  fade:true,
+  adaptiveHeight: true,
+});
+
 $(function(){
   $('a[href^="#"]').click(function(){
     var speed = 400;
