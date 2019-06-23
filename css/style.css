@@ -1,4 +1,9 @@
-
+body{
+	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+p{
+	font-size: 14px;
+}
 .slider{
 	margin:0 auto;
 	padding-top: 70px
@@ -11,11 +16,7 @@
 .slick-next:before {
     color: #000;
 }
-p{
-	font-size: 14px;
-	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-}
-ul{
+/* ul{
 	display: block;
 	float: left;
 	list-style-type: none;
@@ -25,12 +26,34 @@ li{
 }
 dt{
 	float:left;
-	/* width: 35% ; */
 }
 dd{
 	float: left;
 	margin-right: 1em;
-	/* width: 65% */
+} */
+
+.ui.feed>.event:first-child{
+	padding-top: 30px;
+}
+.ui.feed>.event:last-child{
+	padding-bottom: 30px;
+}
+.ui.feed>.event{
+	padding: 30px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #FFFFFF;
+}
+.ui.feed>.event>.content .summary{
+	overflow: hidden;
+	font-size: 1.2em;
+	color: #A08A7A;
+}
+.ui.feed>.event>.content .summary>.date{
+	float: right;
+	color: #A08A7A;
+}
+.ui.feed>.event>.content .extra.text{
+	color: #A08A7A;
 }
 .ui.inverted.secondary.borderless.fixed.pointing.menu{
 	background-color: #FDF3D6;
@@ -52,13 +75,19 @@ dd{
 .eight.wide.right.floated.column h3{
 	background-color: #ffebd3;
 }
+.ui.vertical.stripe.segment img{
+	/* width: 60px; */
+	height: auto;
+}
 .ui.vertical.stripe.segment h1{
 	margin-bottom: 20px;
 	display: inline-block;
-	border-bottom: 5px solid #58b368
+	color: #A08A7A;
+	border-bottom: 2px solid #A08A7A;
 }
-/* .card-list{
-	padding: 0px 100px;
+/* .ui.card>.image>img{
+	width: 100%;
+	height: auto;
 } */
 .cercle-item{
 	margin:30px;
@@ -80,7 +109,7 @@ dd{
 }
 .ui.inverted.vertical.footer.segment{
 	background-color: #A08A7A;
-	padding: 70px 0px;
+	padding: 40px 0px;
 }
 @media screen and (min-width : 375px) and (max-width:414px) {
 	.card-list{
