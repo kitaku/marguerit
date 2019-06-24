@@ -55,6 +55,9 @@ dd{
 .ui.feed>.event>.content .extra.text{
 	color: #A08A7A;
 }
+.img-mrg{
+	padding-top: 120px;
+}
 .ui.inverted.secondary.borderless.fixed.pointing.menu{
 	background-color: #FDF3D6;
 }
@@ -85,6 +88,7 @@ dd{
 	color: #A08A7A;
 	border-bottom: 2px solid #A08A7A;
 }
+
 /* .ui.card>.image>img{
 	width: 100%;
 	height: auto;
