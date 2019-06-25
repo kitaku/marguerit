@@ -16,6 +16,13 @@ p{
 .slick-next:before {
     color: #000;
 }
+.ui.secondary.borderless.fixed.pointing.menu{
+	border: none;
+	background-color: rgba(255,255,255,0.5);
+}
+.ui.secondary.pointing.menu .item{
+	color: #A08A7A;
+}
 /* ul{
 	display: block;
 	float: left;
@@ -57,9 +64,6 @@ dd{
 }
 .img-mrg{
 	padding-top: 120px;
-}
-.ui.inverted.secondary.borderless.fixed.pointing.menu{
-	background-color: #FDF3D6;
 }
 .modProductNav ul{
 	list-style: none;
