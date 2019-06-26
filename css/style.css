@@ -23,6 +23,14 @@ p{
 .ui.secondary.pointing.menu .item{
 	color: #A08A7A;
 }
+.ui.table thead th{
+	width: 110px;
+	color: #7A6051;
+	background-color: #EDE8E3;
+}
+.ui.table thead tr:last-child>th:last-child{
+	border-bottom: none;
+}
 /* ul{
 	display: block;
 	float: left;
