@@ -16,6 +16,12 @@ p{
 .slick-next:before {
     color: #000;
 }
+.thumb{
+	padding: 150px 0px 100px 0px;
+}
+.thumb img{
+	width: 100%;
+}
 .ui.secondary.borderless.fixed.pointing.menu{
 	border: none;
 	background-color: rgba(255,255,255,0.5);
@@ -127,8 +133,42 @@ dd{
 	background-color: #A08A7A;
 	padding: 40px 0px;
 }
+
+
+/* menu-item */
+.Category-menu{
+
+}
+.Category-menu ul{
+	list-style: none;
+}
+.Category-menu ul li{
+	float: left;
+	text-align: center;
+	width: 140px;
+  margin: 0 40px 0 0;
+}
+.Category-menu ul li a{
+	display: block;
+	border-bottom: solid #DDD3CE 1px;
+	padding-bottom: 30px;
+	color: #A08A7A;
+	font-size: 10px;
+}
+.menu-header-img{
+	padding-top: 100px;
+}
+#menu-item.card-list.ui.card, .ui.cards>.card{
+	border-radius: 0px;
+}
+#menu-item.card-list.ui.card>.image>img, .ui.cards>.card>.image>img{
+	border-radius: 0px;
+}
 @media screen and (min-width : 375px) and (max-width:414px) {
 	.card-list{
+		padding: 0px 50px;
+	}
+	#menu-item.card-list{
 		padding: 0px 50px;
 	}
 	/* .ui.link.cards.card{
@@ -152,6 +192,9 @@ dd{
 	.card-list{
 		padding: 0px 50px;
 	}
+	#menu-item.card-list{
+		padding: 0px 50px;
+	}
 	.options iframe{
 		width: 100%;
 	}
@@ -167,6 +210,9 @@ dd{
 }
 @media screen and (min-width:480px) and (max-width:621px){
 	.card-list{
+		padding: 0px 82px;
+	}
+	#menu-item.card-list{
 		padding: 0px 82px;
 	}
 	.options iframe{
@@ -186,6 +232,9 @@ dd{
 	.card-list{
 		padding: 0px 30px;
 	}
+	#menu-item.card-list{
+		padding: 0px 30px;
+	}
 	#nonside{
 		display: none;
 	}
@@ -195,6 +244,9 @@ dd{
 }
 @media screen and (min-width : 768px) and (max-width : 992px) {
 	.card-list{
+		padding: 0px 64px;
+	}
+	#menu-item.card-list{
 		padding: 0px 64px;
 	}
 	#nonside{
@@ -209,6 +261,9 @@ dd{
 	.card-list{
 		padding: 0px 64px;
 	}
+	#menu-item.card-list{
+		padding: 0px 64px;
+	}
 	#side{
 		display: none;
 	}
@@ -217,12 +272,18 @@ dd{
 	.card-list{
 		padding: 0px 10px;
 	}
+	#menu-item.card-list{
+		padding: 0px 10px;
+	}
 	#side{
 		display: none;
 	}
 }
 @media screen and (min-width:1200px) {
 	.card-list{
+		padding: 0px 100px;
+	}
+	#menu-item.card-list{
 		padding: 0px 100px;
 	}
 	#side{

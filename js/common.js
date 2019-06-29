@@ -30,6 +30,20 @@ $('.slider').slick({
   fade:true,
   adaptiveHeight: true,
 });
+$('.thumb').slick({
+  slidesToShow: 5,
+  centerMode: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 5000,
+  swipe:false,
+  cssEase: 'linear',
+  slidesToScroll: 1,
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  pauseOnDotsHover: false,
+})
 
 $(function(){
   $('a[href^="#"]').click(function(){
