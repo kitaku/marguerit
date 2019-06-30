@@ -34,8 +34,17 @@ p{
 	color: #7A6051;
 	background-color: #EDE8E3;
 }
+.ui.table thead td{
+	color: #7A6051;
+}.ui.table tbody td{
+	color: #7A6051;
+}
+
 .ui.table thead tr:last-child>th:last-child{
 	border-bottom: none;
+}
+.ui.grid>.row>[class*="six wide"].column{
+	padding-top: 80px;
 }
 /* ul{
 	display: block;
@@ -166,6 +175,19 @@ dd{
 }
 #top-section{
 	margin-top: 100px;
+}
+#about{
+	margin-top: 100px;
+}
+#about .ui.grid>.row{
+	margin-top: 70px;
+}
+#about h4{
+	color: #A08A7A;
+}
+#about p span{
+	color: #A08A7A;
+	line-height: 2.4;
 }
 @media screen and (min-width : 375px) and (max-width:414px) {
 	.card-list{
