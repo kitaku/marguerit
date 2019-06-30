@@ -22,7 +22,7 @@
 
 $('.slider').slick({
   accessibility: true,
-  autoplay:false,
+  autoplay:true,
   autoplaySpeed:5000,
   dots:true,
   pauseOnHover: true,
