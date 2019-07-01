@@ -43,7 +43,7 @@ p{
 .ui.table thead tr:last-child>th:last-child{
 	border-bottom: none;
 }
-.ui.grid>.row>[class*="six wide"].column{
+#about .ui.grid>.row>[class*="six wide"].column{
 	padding-top: 80px;
 }
 /* ul{
